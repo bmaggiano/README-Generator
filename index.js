@@ -44,16 +44,17 @@ const questions = [
     }
 ];
 
-const prompt = inquirer.createPromptModule()
-prompt(questions)
-.then((data) => {
-    fs.appendFile('newREADME.md', generateMarkdown(data), (err) =>
-    err ? console.error(err) : console.log('Commit logged!')
-  );
-})
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    const prompt = inquirer.createPromptModule()
+    prompt(questions)
+    .then((data) => {
+        fs.appendFile('newREADME.md', generateMarkdown(data), (err) =>
+        err ? console.error(err) : console.log('Commit logged!')
+      );
+    }) 
+}
 
 // Function call to initialize app
 init();
