@@ -50,7 +50,7 @@ function init() {
     const prompt = inquirer.createPromptModule()
     prompt(questions)
     .then((data) => {
-        fs.appendFile('newREADME.md', generateMarkdown(data), (err) =>
+        fs.appendFile('README.md', generateMarkdown(data), (err) =>
         err ? console.error(err) : console.log('Commit logged!')
       );
     }) 
