@@ -21,11 +21,6 @@ For installation, we used npm init -y to install our package.json files, npm i i
 
 To use, the user must open the terminal or command line, navigate to the correct folder and run "node index". From there, the program will run and the user will be allowed to answer the prompts.
 
-![image](https://user-images.githubusercontent.com/103971233/194428109-f6c6aed4-dcfe-481b-8ecf-386657ae579d.png)
-
-
-[Untitled_ Oct 6, 2022 3_08 PM.webm](https://user-images.githubusercontent.com/103971233/194428009-d51efa50-f013-415e-bfb5-391bba9ab8a4.webm)
-
 ## Credits
 
 Credits: Inquirer Version 8.2.4
