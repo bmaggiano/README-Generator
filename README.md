@@ -27,7 +27,7 @@ Credits: Inquirer Version 8.2.4
 
 ## Tests
 
-undefined
+Testing was done to ensure this will provide a detailed and thorough README, and that table of contents will bring a user to that section of the page. The license badges were also tested to make sure the user has the ability to click on them and be taken to a page with more info about the license.
 
 ## Questions
 
