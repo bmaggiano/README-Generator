@@ -57,7 +57,7 @@ ${data.credits}
 
 ## Tests
 
-${data.tests}
+${data.test}
 
 ## Questions
 
